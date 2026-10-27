@@ -1,0 +1,26 @@
+{
+  "task": "synthetic independent-Gaussian regression; y=0.75*x0-0.5*x1+0.25*sin(x2)",
+  "purpose": "runtime and serialization demonstration; not a real-data benchmark",
+  "seed": 1030,
+  "device": "cpu",
+  "dtype": "float32",
+  "train_rows": 512,
+  "test_rows": 128,
+  "features": 5,
+  "optimizer_steps": 100,
+  "attention_axis": "features",
+  "temporal_attention": false,
+  "parameter_count": 4945,
+  "initial_test_mse": 0.8301312327384949,
+  "final_train_mse": 0.021716443821787834,
+  "final_test_mse": 0.023335415869951248,
+  "train_mean_baseline_test_mse": 0.8401399850845337,
+  "checkpoint_reload_max_abs_error": 0.0,
+  "all_predictions_finite": true,
+  "versions": {
+    "python": "3.12.7",
+    "numpy": "1.26.4",
+    "torch": "2.7.1",
+    "threadpoolctl": "3.5.0"
+  }
+}

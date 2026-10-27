@@ -1,0 +1,26 @@
+{
+  "component": "FinTable bounded PyTorch feature-token graph runtime",
+  "export_date": "2026-10-26",
+  "source_project": "FinTable",
+  "scope": "Three exact source files, plus new packaging and a synthetic demonstration. This is a component export, not the complete research system.",
+  "files": [
+    {
+      "exported_path": "fintable/neural_graph.py",
+      "original_relative_path": "fintable/neural_graph.py",
+      "sha256": "dd88ac7d09ce3fa31c0f499724cb1016673438c8e88cff833b658fac1422c68b",
+      "adaptation": "none; byte-for-byte source copy"
+    },
+    {
+      "exported_path": "fintable/native_compute.py",
+      "original_relative_path": "fintable/native_compute.py",
+      "sha256": "646e92eb3e36f546105b082d0f8e3d9e7a116cfe0cd4504e7dc34d18998751ac",
+      "adaptation": "none; byte-for-byte source copy"
+    },
+    {
+      "exported_path": "tests/test_neural_graph.py",
+      "original_relative_path": "tests/test_neural_graph.py",
+      "sha256": "60c99ded5c71f9bdd7ff3ea1d69c9d80cd3ac0fa3f329cd185bfbae3a27c1e9c",
+      "adaptation": "none; byte-for-byte source copy"
+    }
+  ]
+}
